@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation "org.elasticsearch.client:elasticsearch-rest-high-level-client:6.5.4"
+    implementation "com.fasterxml.jackson.module:jackson-module-kotlin:2.12.0"
+}
